@@ -10,7 +10,7 @@ function NavBar(){
             <div className="nav_items">LOGIN</div>
         </div>
         </>
-    )
+    )   
 }
 
 export default NavBar
