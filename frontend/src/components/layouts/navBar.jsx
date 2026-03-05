@@ -7,7 +7,7 @@ function NavBar(){
             <div className="nav_items"><img src={logo} id='logo' alt="logo" /></div>
             <div className="nav_items">SERVICES</div>
             <div className="nav_items">NAVIGATION</div>
-            <div className="nav_items">LOGIN</div>
+            <div className="nav_items">surya</div>
         </div>
         </>
     )
