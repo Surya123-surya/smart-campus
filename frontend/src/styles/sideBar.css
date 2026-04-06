@@ -1,5 +1,5 @@
 *{
-    color: black;
+    color: rgb(232, 233, 237);
 }
 .sideBar{
     display: flex;    
@@ -13,7 +13,7 @@
     height: 150px;
 }
 .sideMain{
-    background-color: rgba(99, 99, 95, 0.668);
+    background-color: #010916;
     padding: 10px;
     border-radius: 30px;
     height: 70%;
@@ -30,7 +30,7 @@
     width:150px;
     height: 30px;
     border-radius: 10px;
-    background-color:  rgba(99, 99, 95, 0.668);
+    background-color:#0e1115;
     text-align: center;
     font-size: 1rem;
 }
@@ -49,12 +49,12 @@ h4{
     width: 150px;
     border-radius: 20px;
     font-size: 1rem;
-    background-color:  rgba(99, 99, 95, 0.866);
+    background-color:#121417;
     border: none;
     cursor: pointer;
     transition: all ease-in 0.3s;
 }
 .sideButton button:hover{
     transform: scale(1.1);
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(240, 232, 232);
 }
