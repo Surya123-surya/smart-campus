@@ -1,6 +1,6 @@
 *{
-    font-family: sans-serif;
-    color: rgb(255, 255, 255);    
+    font-family: 'Poppins', sans-serif;
+    color: #2C5282;    
     /* background-color: rgba(0, 0, 0, 0.784); */
 }
 .navBar{
@@ -18,7 +18,7 @@
  height: 30px;
 }
 .nav_items{
-    background-color: #7E6551;
+    background-color: #030b17;
     height: 45px;
     width: 120px;
     border-radius: 20px;
@@ -29,7 +29,7 @@
     transition: all ease-in 0.3s;
 }
 .nav_items:hover{
-    background-color: #6f5d4d;
+    background-color: #5397d7;
     /*add transitions on hover*/
     transform: scale(1.1);
 }
