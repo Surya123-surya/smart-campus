@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(../images/logo.jpg) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+   background-position-x:center;
+   backdrop-filter: blur(4px);
+   */
+ 
+} 
+
+section {
+    position: relative;
+    min-height: 100vh;
+    width:100%;
+    /* background: #121321; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    perspective: 1000px;
+    
+}
+
+section::before{
+    content:"";
+    position: absolute;
+    height:260px;
+    width: 260px;
+    border-radius:50%;
+    transform:translate(-170px,-120px);
+    background: linear-gradient(90deg, #7e6551,rgb(240, 240, 210));
+}
+section::after{
+    content:"";
+    position: absolute;
+    height:260px;
+    width: 260px;
+    border-radius:50%;
+    transform:translate(170px,120px);
+    background: linear-gradient(90deg, #7e6551,rgb(240, 240, 210));
+} 
+
+.container {
+    max-width: 350px;
+    margin: 70px auto;
+    /* background: linear-gradient(135deg, #3d482c 0%, #8e9c78 100%); */
+    border-radius: 24px;
+    padding: 25px 30px;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    box-shadow: 5px 25px 45px 25px rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
+}
+.user{
+    width: 90%;
+    padding: 10px;
+    margin: 1rem 0;
+    border: 1px solid #a2a59d;
+    border-radius: 10px;
+    background: #ffffff;
+    font-size: 1rem;
+    color: #8e9c78;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #8e9c78;
+    font-weight: 600;
+}
+
+p {
+    color: #8e9c78;
+    margin-bottom: 20px;
+}
+label{
+    display: none;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 1rem 0 0 0;
+    border: 1px solid #8e9c78;
+    border-radius: 10px;
+    background: #ffffff;
+    font-size: 16px;
+    color: #8e9c78;
+}
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    width: 40%;
+    padding: 12px;
+    background: linear-gradient(135deg, #7a746e 0%, #7e6551 100%);
+    color: #fff;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 1rem;
+}
+
+button[type="submit"]:hover {
+    background:#7e6551;
+    transform: scale(1.1);
+}
+
+a {
+    color: #333e22;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

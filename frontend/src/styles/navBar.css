@@ -17,16 +17,19 @@
 #logo{
  height: 30px;
 }
+.navLogo{
+    height: 20px;
+}
 .nav_items{
     background-color: #7E6551;
     height: 45px;
-    width: 120px;
+    width: auto;
+    display: flex;
+    align-items: center;
     border-radius: 20px;
-    display:flex;
-    align-items:center ;
-    justify-content: center;  
-    padding: 3px 25px 3px 25px;
+    padding: 5px 25px 5px 25px;
     transition: all ease-in 0.3s;
+    gap: 10px;
 }
 .nav_items:hover{
     background-color: #6f5d4d;

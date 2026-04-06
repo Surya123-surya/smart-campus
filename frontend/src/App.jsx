@@ -1,22 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './styles/App.css'
-import NavBar from '../src/components/layouts/navBar'
-import SideBar from '../src/components/layouts/sideBar'
+import { Signup } from './../src/components/layouts/login'
+import Login from './../src/components/layouts/login'
+import Layouts from './../src/layouts'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
- 
-
   return (
     <>
-   <div className="main">
-      <div className="SideBar"><SideBar/></div>
-      <div className="hero">
-        <div className="NavBar"><NavBar/></div>
-        <div className="Model">....</div>
-      </div>
-   </div>
+      <Layouts />
+
+      <Routes>
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
+      </Routes>
     </>
   )
 }
