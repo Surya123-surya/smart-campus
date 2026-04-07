@@ -1,7 +1,7 @@
 import SideBar from './components/layouts/sideBar.jsx'
 import NavBar from './components/layouts/navBar.jsx'
 import { Outlet } from "react-router-dom";
-import ModelScene from './ModelScene'
+
 
 function Layouts() {
   return (
