@@ -7,9 +7,10 @@ import { Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <>
-      <Layouts />
+      
 
       <Routes>
+        <Route path='/' element={<Layouts/>} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
       </Routes>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../styles/login.css";
+import { Link } from "react-router-dom";
 import App from "../../App";
 
 const Login = () => {
@@ -181,9 +182,7 @@ const Signup = () => {
         </form>
 
         <p>
-          Already have an account? <button id="alreadyLogin" onClick={()=>{
-            App.render(<Login/>)
-          }}>Login</button>
+          Already have an account? <Link to='/login'>Login</Link>
         </p>  
       </div>
     </section>

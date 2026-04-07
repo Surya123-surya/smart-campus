@@ -1,5 +1,7 @@
 import SideBar from './components/layouts/sideBar.jsx'
 import NavBar from './components/layouts/navBar.jsx'
+import { Outlet } from "react-router-dom";
+import ModelScene from './ModelScene'
 
 function Layouts() {
   return (
@@ -7,10 +9,12 @@ function Layouts() {
       <div className="SideBar"><SideBar /></div>
       <div className="hero">
         <div className="NavBar"><NavBar /></div>
-        <div className="Model">....</div>
+        <div className="Model">
+          ...
+        </div>
       </div>
     </div>
   )
 }
 
-export default Layouts
+export default Layouts;
