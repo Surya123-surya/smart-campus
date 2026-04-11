@@ -37,8 +37,85 @@
 
 .Model{
   height: 75% ;
-  background-color:#94a5bf;
   width: 100%;
   border-radius: 20px;
-  
+  border: 2px solid rgba(61, 90, 128, 0.55);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  position: relative;
+}
+
+.campus-model{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.campus-model-canvas{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.campus-model-toolbar{
+  position: absolute;
+  z-index: 2;
+  right: 12px;
+  top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.campus-model-status{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 12px;
+  font-size: 13px;
+  color: #2f4763;
+}
+
+.campus-model-toggle{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.campus-model-button,
+.campus-model-reset{
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  background: #f5f8ff;
+  color: #2f4763;
+  font-size: 13px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.campus-model-button.active,
+.campus-model-button:hover {
+  background: #3d5a80;
+  color: #fff;
+}
+
+.campus-model-reset{
+  background: #3d5a80;
+  color: #fff;
+}
+
+.campus-model-reset:hover{
+  background: #2f4763;
+}
+
+.campus-model-reset:hover{
+  background: #2f4763;
 }

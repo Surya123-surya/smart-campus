@@ -1,6 +1,6 @@
 import SideBar from './components/layouts/sideBar.jsx'
 import NavBar from './components/layouts/navBar.jsx'
-import { Outlet } from "react-router-dom";
+import CampusModel from './components/CampusModel'
 
 
 function Layouts() {
@@ -10,7 +10,7 @@ function Layouts() {
       <div className="hero">
         <div className="NavBar"><NavBar /></div>
         <div className="Model">
-          ...
+          <CampusModel />
         </div>
       </div>
     </div>

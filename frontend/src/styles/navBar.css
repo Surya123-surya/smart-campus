@@ -13,7 +13,7 @@
     backdrop-filter: blur(10px);
     border-radius:40px;
     gap: 30px;
-}
+}   
 #logo{
  height: 30px;
 }
@@ -21,7 +21,7 @@
     height: 20px;
 }
 .nav_items{
-    background-color: #030b17;
+    background-color: #b98709;
     height: 45px;
     width: auto;
     display: flex;
@@ -30,9 +30,12 @@
     padding: 5px 25px 5px 25px;
     transition: all ease-in 0.3s;
     gap: 10px;
+    /* border: 2px solid black; */
+    color: black;
 }
 .nav_items:hover{
-    background-color: #5397d7;
+    /* background-color: #5397d7; */
     /*add transitions on hover*/
     transform: scale(1.1);
 }
+

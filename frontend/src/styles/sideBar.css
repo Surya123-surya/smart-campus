@@ -13,7 +13,7 @@
     height: 150px;
 }
 .sideMain{
-    background-color: #010916;
+    background-color: #b98709;
     padding: 10px;
     border-radius: 30px;
     height: 70%;
@@ -30,9 +30,11 @@
     width:150px;
     height: 30px;
     border-radius: 10px;
-    background-color:#0e1115;
+    background-color:#b98709;
     text-align: center;
     font-size: 1rem;
+    border: 2px solid black;
+    color: black;
 }
 .side-Items{
     /* display: flex; */
@@ -40,6 +42,7 @@
 h4{
     display: inline;
     font-size: 1.2rem;
+    color: black;
 }
 .sideButton{
    padding: 30px 0px 0px 0px;
@@ -49,10 +52,11 @@ h4{
     width: 150px;
     border-radius: 20px;
     font-size: 1rem;
-    background-color:#121417;
-    border: none;
+    background-color:#b98709;
+    border: 2px solid black;
     cursor: pointer;
     transition: all ease-in 0.3s;
+    color: black;
 }
 .sideButton button:hover{
     transform: scale(1.1);
